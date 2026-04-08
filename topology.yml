@@ -2,8 +2,8 @@ name: demo-sandbox
 hosts:
   - name: host-1
     base_box:
-      image: kali-2020.4
-      mgmt_user: debian
+      image: kali
+      mgmt_user: kali
     flavor: standard.small
   - name: host-2
     base_box:
