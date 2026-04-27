@@ -4,7 +4,7 @@ hosts:
     base_box:
       image: kali-2026.1-x86_64
       mgmt_user: kali
-    flavor: standard.small
+    flavor: c2_r4_d40
   - name: host-2
     base_box:
       image: ubuntu-noble-x86_64
